@@ -15,7 +15,7 @@ console.log(randomNumbers);
 
 for (i = 0; i < randomNumbers.length; i++) {
   if (i % 2 != 0) {
-    console.log("numero nella posizione: "[i]);
+    console.log("numero nella posizione: ", i);
     somma = somma + randomNumbers[i];
   }
 }
